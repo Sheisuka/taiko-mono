@@ -32,7 +32,7 @@
 </script>
 
 <button
-  class="f-center rounded-full w-[30px] h-[30px]"
+  class="f-center rounded-full outline-none w-[30px] h-[30px]"
   disabled={!$destNetwork || disabled}
   on:click={switchToDestChain}>
   <Icon type="up-down" class="" size={16} />
